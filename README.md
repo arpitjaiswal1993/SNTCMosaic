@@ -1,2 +1,2 @@
 # SNTCMosaic
-coming soon
+coming soon page
