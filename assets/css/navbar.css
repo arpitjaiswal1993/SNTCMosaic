@@ -1,0 +1,40 @@
+
+.nav-item>a:hover {
+
+    background-color: #eea03be5;
+    color: white !important;
+    font-weight: bold;
+  }
+
+  /*code to change background color*/
+  .navbar-nav>.active>a {
+    background-color: #eea03be5;
+    color: white !important;
+    font-weight: bold;
+  }
+
+  .dropdown-menu>a:hover {
+    background-image: none !important;
+    background-color: #eea03be5 !important;
+    color: white !important;
+    font-weight: bold;
+  }
+
+  .dropdown-menu>a.active {
+    background-color: #eea03be5;
+    color: white !important;
+    font-weight: bold;
+  }
+
+  .navbar-nav li:hover .dropdown-menu {
+    display: block;
+  }
+
+/* breadcrump */
+.bc-icons-2 .breadcrumb-item+.breadcrumb-item::before {
+    content: none;
+}
+
+.bc-icons-2 .breadcrumb-item.active {
+    color: #455a64;
+}
